@@ -81,11 +81,7 @@ const TestimonialsSection = () => {
               <Quote className="w-8 h-8 text-primary mb-4" />
               <p className="italic mb-6 text-sm sm:text-base">{testimonial.quote}</p>
               <div className="flex items-center">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full mr-4"
-                />
+              
                 <div>
                   <p className="font-bold">{testimonial.name}</p>
                   <p className="text-black/70 text-sm">{testimonial.position}</p>
