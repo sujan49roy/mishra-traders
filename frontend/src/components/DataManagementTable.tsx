@@ -32,8 +32,8 @@ const DataManagementTable = () => {
   const renderCellContent = (item: any, field: string)=>{
     const val = item[field];
     if(field==='createdAt') return formatDate(val);
-    if(field==='imageUrl'||field==='testimonialPhoto') return val ? <img src={`http://localhost:5000${val}`} alt="img" className="w-16 h-16 object-cover rounded"/> : '-';
-    if(field==='pdfUrl') return val ? <a href={`http://localhost:5000${val}`} target="_blank" rel="noreferrer" className="text-primary underline flex items-center gap-1"><FileText className="w-4 h-4"/>PDF</a> : '-';
+    if(field==='imageUrl'||field==='testimonialPhoto') return val ? <img src={`https://mishra-traders.onrender.com${val}`} alt="img" className="w-16 h-16 object-cover rounded"/> : '-';
+    if(field==='pdfUrl') return val ? <a href={`https://mishra-traders.onrender.com${val}`} target="_blank" rel="noreferrer" className="text-primary underline flex items-center gap-1"><FileText className="w-4 h-4"/>PDF</a> : '-';
     if(field==='price') return val?`$${Number(val).toFixed(2)}`:'-';
     if(field==='rating') return val? (<div className="flex">{[...Array(5)].map((_,i)=><Star key={i} className={`w-4 h-4 ${i<val?'text-yellow-400':'text-gray-300'}`} />)}</div>):'-';
     return val??'-';
@@ -69,7 +69,7 @@ const DataManagementTable = () => {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`http://localhost:5000/api/${activeTab}`);
+      const response = await fetch(`https://mishra-traders.onrender.com/api/${activeTab}`);
       if (!response.ok) throw new Error('Failed to fetch data');
       const data = await response.json();
       setData(data.slice(0, 10)); // Show only first 10 items
@@ -89,7 +89,7 @@ const DataManagementTable = () => {
     try {
       if (!window.confirm('Are you sure you want to delete this item?')) return;
       
-      const response = await fetch(`http://localhost:5000/api/${activeTab}/${id}`, {
+      const response = await fetch(`https://mishra-traders.onrender.com/api/${activeTab}/${id}`, {
         method: 'DELETE',
       });
       

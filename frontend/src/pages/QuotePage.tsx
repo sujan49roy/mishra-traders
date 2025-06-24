@@ -20,7 +20,7 @@ function QuotePage() {
     if(products.length===0){
       setLoadingCatalog(true);
       try{
-        const res=await fetch("http://localhost:5000/api/products");
+        const res=await fetch("https://mishra-traders.onrender.com/api/products");
         if(!res.ok) throw new Error("Failed to fetch products");
         const data:Product[]=await res.json();
         setProducts(data);
@@ -29,11 +29,11 @@ function QuotePage() {
 
   const handleDownloadPdf=async()=>{
     try{
-      const res=await fetch("http://localhost:5000/api/pdfs");
+      const res=await fetch("https://mishra-traders.onrender.com/api/pdfs");
       if(!res.ok) throw new Error("Failed to fetch pdf list");
       const pdfs: { _id:string; pdfUrl:string }[] = await res.json();
       if(pdfs.length>0){
-        window.open(`http://localhost:5000${pdfs[0].pdfUrl}`,'_blank');
+        window.open(`https://mishra-traders.onrender.com${pdfs[0].pdfUrl}`,'_blank');
       } else {
         alert('No price list available');
       }
@@ -132,7 +132,7 @@ function QuotePage() {
                             {products.map(prod=> (
                               <div key={prod._id} className="border rounded-md p-4 flex flex-col">
                                 {prod.imageUrl && (
-                                  <img src={`http://localhost:5000${prod.imageUrl}`} alt={prod.name} className="w-full h-40 object-cover mb-2 rounded" />
+                                  <img src={`https://mishra-traders.onrender.com${prod.imageUrl}`} alt={prod.name} className="w-full h-40 object-cover mb-2 rounded" />
                                 )}
                                 <h4 className="font-semibold">{prod.name}</h4>
                                 {prod.description && <p className="text-sm text-muted-foreground mb-2">{prod.description}</p>}

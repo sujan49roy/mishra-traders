@@ -241,7 +241,7 @@ function GalleryPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                           <div className="overflow-hidden rounded-md">
                             <img
-                              src={`http://localhost:5000${item.imageUrl}`}
+                              src={`https://mishra-traders.onrender.com${item.imageUrl}`}
                               alt={item.title}
                               className="w-full h-auto object-cover"
                             />

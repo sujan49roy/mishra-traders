@@ -120,7 +120,7 @@ const AdminSection = () => {
           break;
       }
 
-      const response = await fetch(`http://localhost:5000${endpoint}`, {
+      const response = await fetch(`https://mishra-traders.onrender.com${endpoint}`, {
         method: 'POST',
         body: formData,
         // Don't set Content-Type header, let the browser set it with the correct boundary
