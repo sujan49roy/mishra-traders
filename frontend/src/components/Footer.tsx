@@ -45,7 +45,7 @@ const Footer = () => {
               <li><Link to="/about" className="hover:text-secondary transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-secondary transition-colors">Contact</Link></li>
               <li><Link to="/quote" className="hover:text-secondary transition-colors">Get Quote</Link></li>
-              <li>Email:<a href="mailto:mishratraders006@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">mishratraders006@gmail.com</a></li>
+              <li>Email: <a href="mailto:mishratraders006@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">mishratraders006@gmail.com</a></li>
             </ul>
           </div>
 
