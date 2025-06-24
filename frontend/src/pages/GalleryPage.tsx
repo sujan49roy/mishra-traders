@@ -227,7 +227,7 @@ function GalleryPage() {
                         <div className="cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-all">
                           <div className="relative h-64">
                             <img
-                              src={`http://localhost:5000${item.imageUrl}`}
+                              src={`https://mishra-traders.onrender.com${item.imageUrl}`}
                               alt={item.title}
                               className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                             />
