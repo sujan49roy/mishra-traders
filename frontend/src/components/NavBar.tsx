@@ -106,7 +106,7 @@ const NavBar = () => {
                       {link.name}
                     </Link>
                   ))}
-                  <a href="tel:+9779804042126" className="mt-4 w-full">
+                  <a href="tel:+9779804906236" className="mt-4 w-full">
                     <Button className="w-full">
                     <Phone className="w-4 h-4 mr-2" />
                     Call Now
