@@ -89,7 +89,7 @@ function ContactPage() {
           rel="noopener noreferrer"
           key={0}
         >
-          mishratraders06@gmail.com
+          mishratraders006@gmail.com
         </a>
       ]
     },

@@ -7,28 +7,24 @@ const testimonials = [
     name: "Chiranjibi Adhikari",
     position: "Home Owner",
     quote: "The quality of UPVC windows installed by Mishra Trader's was outstanding. They provided excellent service from consultation to installation. Highly recommended!",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
   },
   {
     id: 2,
     name: "Pashupati Rimal",
     position: "Interior Designer",
     quote: "I've worked with Mishra Trader's on multiple projects. Their false ceiling work is immaculate and their team is always professional and punctual.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
   },
   {
     id: 3,
     name: "Ayush Dhakal",
     position: "Architect",
     quote: "The aluminum doors and windows provided by Mishra Trader's are of exceptional quality. Their attention to detail and craftsmanship is unmatched in Nepal.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop"
   },
   {
     id: 4,
     name: "Suresh Tamang",
     position: "Contractor",
     quote: "Mishra Trader's delivered top-notch materials for my construction project. Their support team was incredibly helpful throughout the process.",
-    image: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&h=100&fit=crop"
   }
 ];
 
@@ -67,11 +63,7 @@ const TestimonialsSection = () => {
                 <Quote className="w-8 h-8 text-primary mb-4" />
                 <p className="italic mb-6 text-sm sm:text-base">{testimonial.quote}</p>
                 <div className="flex items-center">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full mr-4"
-                  />
+                 
                   <div>
                     <p className="font-bold">{testimonial.name}</p>
                     <p className="text-black/70 text-sm">{testimonial.position}</p>
