@@ -114,7 +114,7 @@ function GalleryPage() {
   useEffect(() => {
     const loadDbItems = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/gallery");
+        const res = await fetch("https://mishra-traders.onrender.com/api/gallery");
         if (!res.ok) throw new Error("Failed to fetch gallery");
         const data: DbItem[] = await res.json();
         setDbItems(data);
