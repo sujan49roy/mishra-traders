@@ -1,0 +1,113 @@
+/**
+ * **IMPORTANT** Never break the original structure, only add highly customized new styles
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 20% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+    --primary: 126 76% 22%;  /* Primary Green: #16610E */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 30 100% 49%; /* Accent Orange: #F97A00 */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 10% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 42 97% 71%; /* Soft Yellow: #FED16A */
+    --accent-foreground: 210 20% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 126 76% 22%;
+    --chart-1: 126 76% 22%;
+    --chart-2: 30 100% 49%;
+    --chart-3: 42 97% 71%;
+    --chart-4: 60 100% 80%; /* #FFF4A4 */
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --sidebar-background: 126 76% 22%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 30 100% 49%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 42 97% 71%;
+    --sidebar-accent-foreground: 210 20% 15%;
+    --sidebar-border: 126 70% 30%;
+    --sidebar-ring: 126 76% 22%;
+  }
+  .dark {
+    --background: 210 30% 10%;
+    --foreground: 0 0% 98%;
+    --card: 210 30% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 210 30% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 126 76% 22%;  /* Primary Green: #16610E */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 30 100% 49%; /* Accent Orange: #F97A00 */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 35% 20%;
+    --muted-foreground: 210 10% 70%;
+    --accent: 42 97% 71%; /* Soft Yellow: #FED16A */
+    --accent-foreground: 210 20% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 35% 25%;
+    --input: 210 35% 25%;
+    --ring: 126 76% 22%;
+    --chart-1: 126 76% 22%;
+    --chart-2: 30 100% 49%;
+    --chart-3: 42 97% 71%;
+    --chart-4: 60 100% 80%; /* #FFF4A4 */
+    --chart-5: 27 87% 60%;
+    --sidebar-background: 210 30% 12%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 30 100% 49%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 42 97% 71%;
+    --sidebar-accent-foreground: 210 20% 15%;
+    --sidebar-border: 210 35% 25%;
+    --sidebar-ring: 126 76% 22%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .hero-overlay {
+    @apply absolute inset-0 bg-primary/60 mix-blend-multiply;
+  }
+  
+  .section-heading {
+    @apply text-3xl font-bold text-primary mb-6 relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-secondary after:left-0 after:-bottom-2;
+  }
+  
+  .category-card {
+    @apply relative overflow-hidden rounded-lg shadow-md transition-transform hover:scale-[1.02] hover:shadow-lg;
+  }
+  
+  .category-card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent;
+  }
+
+  .soft-yellow-bg {
+    @apply bg-[#FFF4A4];
+  }
+
+  .soft-yellow-text {
+    @apply text-[#FFF4A4];
+  }
+}
