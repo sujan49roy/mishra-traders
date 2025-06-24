@@ -7,7 +7,16 @@ const path = require('path');
 const app = express();
 
 // Middleware
-app.use(cors());
+// CORS configuration
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || '').split(',').map(o => o.trim()).filter(Boolean);
+app.use(cors({
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps, curl, health checks) or when whitelist is empty
+    if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) return callback(null, true);
+    return callback(new Error('Not allowed by CORS'));
+  },
+  credentials: true,
+}));
 app.use(express.json());
 // Serve uploaded files
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -35,6 +44,11 @@ mongoose.connect(process.env.MONGODB_URI)
     console.error('MongoDB connection error:', err);
     console.error('Please check your MongoDB Atlas credentials and ensure the user has proper access.');
     process.exit(1);
+});
+
+// Health check & root endpoint
+app.get('/', (req, res) => {
+  res.json({ success: true, message: 'Mishra Traders API running' });
 });
 
 // Routes
