@@ -50,7 +50,10 @@ mongoose.connect(process.env.MONGODB_URI)
 app.get('/', (req, res) => {
   res.json({ success: true, message: 'Mishra Traders API running' });
 });
-
+// after app.use(express.static(...))
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
+});
 // Routes
 app.use('/api/gallery', require('./routes/gallery'));
 app.use('/api/products', require('./routes/products'));
