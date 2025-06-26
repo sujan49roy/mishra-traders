@@ -26,25 +26,25 @@ function AboutPage() {
       name: "Chhabilal Mishra", 
       position: "Founder & CEO", 
       bio: "With a strong vision for quality and customer satisfaction, Chhabilal leads Mishra Trader's with dedication and expertise.",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop"
+      image: "frontend\dist\assets\chhabi.jpg"
     },
     { 
       name: "Ramesh Mishra", 
       position: "Co-Founder & Operational Head", 
       bio: "Ramesh oversees daily operations and ensures smooth execution of all projects with attention to detail and efficiency.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=300&h=300&fit=crop"
+      image: "frontend\dist\assets\ramesh.jpg"
     },
     { 
       name: "Sujan Mishra", 
       position: "Technical Assistant", 
       bio: "Sujan provides technical support and ensures all projects meet our high standards of quality and craftsmanship.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop"
+      image: "frontend\dist\assets\sujan.jpg"
     },
     { 
       name: "Ayush Mishra", 
       position: "Field Coordinator & Creative Support", 
       bio: "Ayush manages field operations and brings creative solutions to every project, ensuring client satisfaction.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop"
+      image: "frontend\dist\assets\ayush.jpg"
     }
   ];
 
