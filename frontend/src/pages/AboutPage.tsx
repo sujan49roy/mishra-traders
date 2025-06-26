@@ -38,13 +38,13 @@ function AboutPage() {
       name: "Sujan Mishra", 
       position: "Technical Assistant", 
       bio: "Sujan provides technical support and ensures all projects meet our high standards of quality and craftsmanship.",
-      image: "https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/476433224_1820210438811003_7819102313484265385_n.jpg?stp=c128.0.765.765a_dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=50c75d&_nc_eui2=AeEhjzW9QaB3XxKBPRvX44QPh-a9KYQPbrGH5r0phA9usbdqJRloE6qoQuKd7_1plebyYDbm84kkwH_b2vn2Gaay&_nc_ohc=mJM065Ki9XcQ7kNvwGaPPoA&_nc_oc=Adm_-uKJRd71ojUAUQczz5mBVnXQQcQ5xG8SFItPdTi3ghftHtxGgYFPsv5Q_X04dlMqX47Vrrmu7Mv62G7W3z2-&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=ZrSqNb0PT3O6kP19SDJvAg&oh=00_AfPEiH3ATxgKBZ72lLMtB1REAt0EeVSwoaO_QkM5sedHUg&oe=68631491"
+      image: "https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/480571740_1827254464773267_6531196375561500158_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGA9lXkUSZl1Wyf6oUGfpBEqQlHWH9Hm9ipCUdYf0eb2HIcjXbOi6mwJ7M5pedzieMdECLHBE-qV1WgoN9hiwkg&_nc_ohc=e1OhccGcY7QQ7kNvwFn8q8n&_nc_oc=AdkMkcCk4ZfCus3375xBlTXtKxvALTZjJFmyaB2HWlqRKPkrur_ZO8_0idhskkLJhktfPOX_3GRqHGzEqy2JV1u_&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=d1annnvyKKhvEh-Od-0T3w&oh=00_AfPDS-oZ8qURTCA0MbfQ60z9YCssAiQlaQOGx-a4CaeusA&oe=68630C81"
     },
     { 
       name: "Ayush Mishra", 
       position: "Field Coordinator & Creative Support", 
       bio: "Ayush manages field operations and brings creative solutions to every project, ensuring client satisfaction.",
-      image: "frontend/dist/assets/ayush.jpg"
+      image: "https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/473778631_122188336730149187_5821089131067095242_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGi7Urs8m4hBEIZS9KlCtSYQES4nrgytENARLieuDK0Qx6J3PmrbeOsWbGy3ErpY3ghbKYtVNk3QKWhm-8nZk4b&_nc_ohc=Bp5jzmK15PoQ7kNvwE-q4nq&_nc_oc=AdngG_8RKUFbo3ndg27JI4kavlgmOCajMJQNb1UHXyJvV2QC2vZ7RGyKOrszwXnY5JctX1aHgnR1ROorVzxwXZB0&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=o3Bj5YeuQcb41eM_xzUpuw&oh=00_AfPH9r-qNORwXse9DgISV_tteDeN0J6JGPe-ICacicHjig&oe=6862FF4C"
     }
   ];
 
