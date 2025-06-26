@@ -26,7 +26,7 @@ function AboutPage() {
       name: "Chhabilal Mishra", 
       position: "Founder & CEO", 
       bio: "With a strong vision for quality and customer satisfaction, Chhabilal leads Mishra Trader's with dedication and expertise.",
-      image: "frontend\dist\assets\chhabi.jpg"
+      image: "https://scontent.fbdp2-1.fna.fbcdn.net/v/t1.6435-9/171995245_3837086066382371_7449308429285386671_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEfaZSdrWDK7wDs7i9kknD1Vwq8BplEfZVXCrwGmUR9lf2AyaSbNnzjyK0HarxgxzVpvTo5tiXY1XwSQh5Q29GX&_nc_ohc=A9DJcBBdpx0Q7kNvwHQJy7w&_nc_oc=Adko39NITaJz8qcals6qfWye3ksDdW6mcTq_1C9yn20Y6mZJyty2aX75tECbwdFs3BhMTEf_0tsGBJQVDNq0ANtn&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=B8m2elfqFdvx0FeduzMW2A&oh=00_AfNHpA-BxHvLffcSeGR0SdFwmAS_7QCtRxiyrLysXmxgfA&oe=6884CF46"
     },
     { 
       name: "Ramesh Mishra", 
@@ -38,7 +38,7 @@ function AboutPage() {
       name: "Sujan Mishra", 
       position: "Technical Assistant", 
       bio: "Sujan provides technical support and ensures all projects meet our high standards of quality and craftsmanship.",
-      image: "frontend\dist\assets\sujan.jpg"
+      image: "https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/476433224_1820210438811003_7819102313484265385_n.jpg?stp=c128.0.765.765a_dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=50c75d&_nc_eui2=AeEhjzW9QaB3XxKBPRvX44QPh-a9KYQPbrGH5r0phA9usbdqJRloE6qoQuKd7_1plebyYDbm84kkwH_b2vn2Gaay&_nc_ohc=mJM065Ki9XcQ7kNvwGaPPoA&_nc_oc=Adm_-uKJRd71ojUAUQczz5mBVnXQQcQ5xG8SFItPdTi3ghftHtxGgYFPsv5Q_X04dlMqX47Vrrmu7Mv62G7W3z2-&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=ZrSqNb0PT3O6kP19SDJvAg&oh=00_AfPEiH3ATxgKBZ72lLMtB1REAt0EeVSwoaO_QkM5sedHUg&oe=68631491"
     },
     { 
       name: "Ayush Mishra", 
