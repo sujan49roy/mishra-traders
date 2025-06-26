@@ -32,7 +32,7 @@ function AboutPage() {
       name: "Ramesh Mishra", 
       position: "Co-Founder & Operational Head", 
       bio: "Ramesh oversees daily operations and ensures smooth execution of all projects with attention to detail and efficiency.",
-      image: "frontend\dist\assets\ramesh.jpg"
+      image: "https://scontent.fbdp2-1.fna.fbcdn.net/v/t39.30808-6/412428238_122106705596149187_6377538531624920213_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEkTlTaq92Ka7e1qYFIBNYSP7Ck7XmWfbs_sKTteZZ9u5diAL92fev__JtZ6FO5ByfK8gDxUUCVLK41GoHp8HAZ&_nc_ohc=If5lyyQT4d8Q7kNvwGv6xk7&_nc_oc=Adkf6b_A2x_SMbx6tbRByvV9S3ak6z35EjzigiFe9W9MCdXGCvj_QGPDT0b_HGkP2p1hKkq7fXlp6dKW1jW4rh4T&_nc_zt=23&_nc_ht=scontent.fbdp2-1.fna&_nc_gid=89gM4SIziNxZRDXQJrQ7NA&oh=00_AfOJcUBROcVHLRFnNEfJxspzk8qqjXitTw4IAxZp2rX11g&oe=68632AAE"
     },
     { 
       name: "Sujan Mishra", 
@@ -44,7 +44,7 @@ function AboutPage() {
       name: "Ayush Mishra", 
       position: "Field Coordinator & Creative Support", 
       bio: "Ayush manages field operations and brings creative solutions to every project, ensuring client satisfaction.",
-      image: "frontend\dist\assets\ayush.jpg"
+      image: "frontend/dist/assets/ayush.jpg"
     }
   ];
 
